@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+html{
+    background-image:url(images/17455.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment:inherit;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(url(images/17455.jpg)); 
+    background-image: -webkit-linear-gradient(url(images/17455.jpg)); 
+    background-image: -moz-linear-gradient(url(images/17455.jpg)); 
+    background-image: -o-linear-gradient(url(images/17455.jpg));  
+}
+
+body{
+    height: 80vh;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.h1{
+    color:yellow;
+    font-style:bold;
+    font-size: 3rem;
+}   
+
+.convert,.exchange{
+    font-family: 'sansita swashed,cursive';
+    font-size: 25px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+input{
+    width: 150px;
+    height: 20px;
+    font-size: 20px;
+    outline: 0;
+    margin: 5px auto;
+}
+#original-currency-amount{
+    padding-left: 50px;
+}
+button{
+    width: 300px;
+    height: 40px;
+  font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ color: black;
+ background-color:cornsilk;
+}
+select{
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    outline: 0;
+}
+
+#exchange{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px;
+    outline: 0;
+    border: 4px solid black
+}
+#exchange:active , button:active{
+    transform: scale(0.9);
+}
+
+#output-text{
+    display: none;
+    padding: 20px;
+    font-size: 30px;
+    color:azure;
+    background-position: center;
+    text-align: center;
+    background-position: center;
+}
+span{
+    color:yellow;
+    font-size: 35px;
+}
+#exchange-rate{
+    cursor:default;
+}
